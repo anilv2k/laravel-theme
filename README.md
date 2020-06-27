@@ -40,7 +40,7 @@ Theme has many features to help you get started with Laravel
 To get the latest version of laravel-themes simply require it in your `composer.json` file.
 
 ~~~json
-"facuz/laravel-themes": "^3.1"
+"anilv2k/laravel-themes": "^3.1"
 ~~~
 
 You'll then need to run `composer install` to download it and have the autoloader updated.
@@ -50,7 +50,7 @@ Once Theme is installed you need to register the service provider with the appli
 ~~~php
 'providers' => [
 	...
-	Facuz\Theme\ThemeServiceProvider::class,
+	Anilv2k\Theme\ThemeServiceProvider::class,
 
 ]
 ~~~
@@ -60,14 +60,14 @@ Theme also ships with a facade which provides the static syntax for creating col
 ~~~php
 'aliases' => [
 	...
-	'Theme' => Facuz\Theme\Facades\Theme::class,
+	'Theme' => Anilv2k\Theme\Facades\Theme::class,
 
 ]
 ~~~
 Publish config using artisan CLI.
 
 ~~~
-php artisan vendor:publish --provider="Facuz\Theme\ThemeServiceProvider"
+php artisan vendor:publish --provider="Anilv2k\Theme\ThemeServiceProvider"
 ~~~
 
 It's recommended to add to the `.env` file the theme that we are going to use
