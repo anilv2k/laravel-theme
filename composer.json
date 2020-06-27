@@ -1,8 +1,8 @@
 {
-    "name": "facuz/laravel-themes",
+    "name": "anilv2k/laravel-themes",
     "description": "Theme will help you organize your themes inside Laravel projects easily and maintain its related assets, layouts and partials for the theme in single directory. (Based on teepluss/theme)",
     "keywords": ["laravel", "theme", "layout", "asset", "widget"],
-    "homepage": "https://github.com/facuz/laravel-theme",
+    "homepage": "https://github.com/anilv2k/laravel-theme",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -13,6 +13,10 @@
         {
             "name": "FaCuZ",
             "email": "info@indis.com.ar"
+        },
+        {
+            "name": "Anil",
+            "email": "anilv2k@gmail.com"
         }
     ],
     "require": {
@@ -24,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Facuz\\Theme\\": "src/"
+            "Anilv2k\\Theme\\": "src/"
         },
         "classmap": [
             "src/Exceptions.php"
@@ -36,10 +40,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Facuz\\Theme\\ThemeServiceProvider"
+                "Anilv2k\\Theme\\ThemeServiceProvider"
             ],
             "aliases": {
-                "Theme": "Facuz\\Theme\\Facades\\Theme"
+                "Theme": "Anilv2k\\Theme\\Facades\\Theme"
             }
         }
     },
